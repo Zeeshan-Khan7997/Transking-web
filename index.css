@@ -1,0 +1,108 @@
+#index-h1 {
+    text-align: center;
+    color:rgb(35, 46, 49);s
+}
+
+#contact-h1 {
+    text-align: left;
+    color: rgb(35, 46, 49);
+    text-shadow: 4px 3px 2px burlywood;
+}
+#About-h1 {
+    text-align: center;
+    color: rgb(35, 46, 49);
+}
+
+.new {
+    color: rgb(30, 109, 30);
+}
+#italic{
+    color: brown;
+}
+
+
+nav {
+text-align: center; 
+font-size: larger;
+background-color: rgba(0, 255, 191, 0.692) ;
+}
+a {
+text-decoration-line: underline;
+color: unset;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin: 30px;
+}
+
+.input-field {
+    margin: 20px;
+}
+
+
+
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    padding: 30px;
+}
+    
+
+.Transking-logo {
+    margin: 30px 200px 30px 200px;
+    border-radius: 25%;
+}
+#transking-logo { box-shadow:10px 10px 10px black;
+}
+
+.flex {
+    margin: 30px;
+    border: 4px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+}
+.infoabtpage { 
+    border: 4px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+form input, textarea, button {
+    display: block;
+    margin: 30px;
+}
+
+#Cranes {
+    display: flex;
+    justify-content: center;
+}
+
+#Trailers {
+   display: flex;
+   justify-content: center;
+}
+
+#Forklifts {
+    display: flex;
+    justify-content: center;
+}
+.border-about {
+margin: 30px;
+border: 4px solid black;
+border-radius: 10px;
+}
+ 
+#Transking-logo-about {
+    display: flex;
+    justify-content: center;
+}

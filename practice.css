@@ -1,0 +1,69 @@
+#h1-practice {
+    text-align: center;
+    color: grey;
+    font-style: oblique;
+}
+
+#practice-div {
+    display: flex;
+    justify-content: center;
+}
+
+  
+  .wrapper {
+          display: grid;
+      grid-gap: 10px;
+          grid-template-columns: repeat(5, [col] 200px ) ;
+          grid-template-rows: repeat(3, [row] auto  );
+          background-color: white;
+          color: #444;
+      }
+  
+      .box {
+          background-color: white;
+          color: black;
+          font-style: oblique;
+          border-radius: 5px;
+          padding: 20px;
+          font-size: 150%;
+          z-index:10;
+  
+      }
+  
+      .a {
+          grid-column: col / span  2;
+          grid-row: row ;
+          display: flex;
+          justify-content: center;
+      }
+      .b {
+          grid-column: col 4 / span  2 ;
+          grid-row: row ;
+          display: flex;
+          justify-content: center;
+      }
+      .c {
+          grid-column: col / span 5 ;
+          grid-row: row 2 ;
+          display: flex;
+          justify-content: center;
+          background-image: linear-gradient(pink, yellow, purple, orange);
+      }
+      .d {
+          grid-column: col 1 / span  2 ;
+          grid-row: row 3 ;
+          display: flex;
+          justify-content: center;
+      }
+  
+      .e {
+          grid-column: col 4/ span  2;
+          grid-row: row 3;
+          display: flex;
+          justify-content: center;
+      }
+
+      #practice-page-style {
+          display: flex;
+          justify-content: center;
+      }
